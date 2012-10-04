@@ -8,11 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: sazzadur
- * Date: 4/9/12
- * Time: 5:03 PM
- * To change this template use File | Settings | File Templates.
+ *
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 public class DatabaseTemplate {
 

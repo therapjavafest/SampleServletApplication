@@ -1,10 +1,9 @@
 package net.therap.domain;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
- * @since: 10/2/12 4:29 PM
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 public class User {
     private long userId;

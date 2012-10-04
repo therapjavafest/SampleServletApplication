@@ -9,10 +9,9 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
- * @since: 10/2/12 4:16 PM
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 @WebServlet("/logout.html")
 public class LogoutController extends HttpServlet{

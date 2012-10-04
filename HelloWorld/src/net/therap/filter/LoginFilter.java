@@ -8,10 +8,9 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
- * @since: 10/3/12 4:33 PM
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 @WebFilter("/*")
 public class LoginFilter implements Filter {

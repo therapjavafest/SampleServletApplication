@@ -11,10 +11,9 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
- * @since: 10/3/12 1:26 PM
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 
 public class JdbcUserDaoImpl implements UserDao {

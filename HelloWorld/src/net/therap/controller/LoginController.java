@@ -14,9 +14,8 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
+ * @author: therapJavaFestTeam
  * @since: 10/2/12 4:11 PM
  */
 @WebServlet("/login.html")

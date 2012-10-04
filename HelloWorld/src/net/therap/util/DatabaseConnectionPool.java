@@ -9,10 +9,9 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 /**
- * Created by IntelliJ IDEA.
  *
- * @author: sazzadur
- * @since: 10/3/12 12:41 PM
+ * @author: therapJavaFestTeam
+ * @since: 10/2/12 4:11 PM
  */
 public class DatabaseConnectionPool {
 

@@ -72,19 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/therap/filter/LoginFilter.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="77" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseTemplate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="66" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
+            <state line="10" column="3" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,52 +84,61 @@
       <file leaf-file-name="DatabaseConnectionPool.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="1" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+            <state line="14" column="3" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/props/db.properties">
+      <file leaf-file-name="DatabaseTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="3" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/props/log4j.properties">
+      <file leaf-file-name="ObjectRowMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/therap/util/ObjectRowMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="57" selection-end="81" vertical-scroll-proportion="0.019255456">
+            <state line="8" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserService.java">
+      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java">
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/therap/controller/LoginController.java">
+      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="51" selection-start="1541" selection-end="1558" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -153,10 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="17" column="28" selection-start="544" selection-end="544" vertical-scroll-proportion="0.32734275">
               <folding />
             </state>
           </provider>
@@ -176,22 +176,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/net/therap/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/props/db.properties" />
-        <option value="$PROJECT_DIR$/src/net/therap/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/dao/JdbcUserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/controller/LogoutController.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/filter/LoginFiler.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/src/net/therap/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/net/therap/util/DatabaseConnectionPool.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/src/net/therap/controller/LogoutController.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/dao/JdbcUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/domain/User.java" />
         <option value="$PROJECT_DIR$/src/net/therap/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/util/DatabaseConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/net/therap/util/DatabaseTemplate.java" />
+        <option value="$PROJECT_DIR$/src/net/therap/util/ObjectRowMapper.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -771,42 +771,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/therap/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="3" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/therap/dao/JdbcUserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+        <state line="16" column="3" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/therap/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
+        <state line="8" column="3" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/therap/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+        <state line="6" column="3" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="3" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/therap/util/ObjectRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="-12.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-21.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-19.375">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -820,63 +878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="51" selection-start="1541" selection-end="1558" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="77" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="66" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/therap/util/DatabaseConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="1" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/props/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/props/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="57" selection-end="81" vertical-scroll-proportion="0.019255456">
+        <state line="17" column="28" selection-start="544" selection-end="544" vertical-scroll-proportion="0.32734275">
           <folding />
         </state>
       </provider>
