@@ -18,7 +18,7 @@
     <table>
         <tr>
             <td>You are LoggedIn as :</td>
-            <td><b>${loggedInUser.userName}</b>.</td>
+            <td><b>${authenticatedUser.userName}</b>.</td>
         </tr>
         <tr>
             <td>

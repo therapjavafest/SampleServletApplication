@@ -25,11 +25,11 @@ public class LoginFilter implements Filter {
 
         String requestedUri = ((HttpServletRequest) servletRequest).getRequestURI();
 
-        if ((session == null || session.getAttribute("loggedInUser") == null) && (requestedUri.contains("home") || requestedUri.contains("logout"))) {
+        if ((session == null || session.getAttribute("authenticatedUser") == null) && (requestedUri.contains("home") || requestedUri.contains("logout"))) {
 
             ((HttpServletResponse) servletResponse).sendRedirect("/helloWorld/login.html");
 
-        } else if (session != null && session.getAttribute("loggedInUser") != null && (requestedUri.contains("login") || requestedUri.contains("register"))) {
+        } else if (session != null && session.getAttribute("authenticatedUser") != null && (requestedUri.contains("login") || requestedUri.contains("register"))) {
 
             ((HttpServletResponse) servletResponse).sendRedirect("/helloWorld/home.html");
 

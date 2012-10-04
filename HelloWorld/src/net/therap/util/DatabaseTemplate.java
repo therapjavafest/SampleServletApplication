@@ -32,9 +32,6 @@ public class DatabaseTemplate {
 
             try {
                 stmt.close();
-            } catch (NullPointerException e) {
-                closeConnection(conToUse);
-                throw new RuntimeException(e);
             } catch (SQLException e) {
                 closeConnection(conToUse);
                 throw new RuntimeException(e);
@@ -63,9 +60,6 @@ public class DatabaseTemplate {
             try {
                 resultSet.close();
                 stmt.close();
-            } catch (NullPointerException e) {
-                closeConnection(conToUse);
-                throw new RuntimeException(e);
             } catch (SQLException e) {
                 closeConnection(conToUse);
                 throw new RuntimeException(e);
@@ -111,9 +105,6 @@ public class DatabaseTemplate {
             try {
 
                 preparedStatement.close();
-            } catch (NullPointerException e) {
-                closeConnection(conToUse);
-                throw new RuntimeException(e);
             } catch (SQLException e) {
                 closeConnection(conToUse);
                 throw new RuntimeException(e);

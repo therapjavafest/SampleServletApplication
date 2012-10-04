@@ -19,8 +19,8 @@ public class DatabaseConnectionPool {
     private static DataSource dataSource;
     private static final String DRIVER_NAME;
     private static final String URL;
-    private static final String UNAME;
-    private static final String PWD;
+    private static final String USER_NAME;
+    private static final String PASSWORD;
     /*private static final Logger log = LoggerFactory.getLogger(DatabaseConnectionPool.class);*/
 
 
@@ -29,8 +29,8 @@ public class DatabaseConnectionPool {
         final ResourceBundle config = ResourceBundle.getBundle("db");
         DRIVER_NAME = config.getString("jdbc.driver");
         URL = config.getString("jdbc.url.address");
-        UNAME = config.getString("db.user");
-        PWD = config.getString("db.password");
+        USER_NAME = config.getString("db.user");
+        PASSWORD = config.getString("db.password");
 
         try {
             dataSource = setupDataSource();
@@ -49,8 +49,8 @@ public class DatabaseConnectionPool {
 
         comboPooledDataSource.setDriverClass(DRIVER_NAME);
         comboPooledDataSource.setJdbcUrl(URL);
-        comboPooledDataSource.setUser(UNAME);
-        comboPooledDataSource.setPassword(PWD);
+        comboPooledDataSource.setUser(USER_NAME);
+        comboPooledDataSource.setPassword(PASSWORD);
 
         comboPooledDataSource.setMinPoolSize(5);
         comboPooledDataSource.setAcquireIncrement(5);

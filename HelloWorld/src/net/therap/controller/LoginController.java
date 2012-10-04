@@ -36,15 +36,15 @@ public class LoginController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        User loggingInUser = new User();
-        loggingInUser.setUserName(request.getParameter("userName"));
-        loggingInUser.setPassword(request.getParameter("password"));
+        User user = new User();
+        user.setUserName(request.getParameter("userName"));
+        user.setPassword(request.getParameter("password"));
 
-        User verifiedUser = userService.verifyUser(loggingInUser);
+        User authenticatedUser = userService.verifyUser(user);
 
-        if (verifiedUser != null) {
+        if (authenticatedUser != null) {
             HttpSession session = request.getSession();
-            session.setAttribute("loggedInUser", verifiedUser);
+            session.setAttribute("authenticatedUser", authenticatedUser);
             response.sendRedirect("/helloWorld/home.html");
         } else {
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("/WEB-INF/jsp/login.jsp");
