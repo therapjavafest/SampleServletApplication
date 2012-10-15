@@ -12,7 +12,7 @@
 
 
 
-*** How to run :
+*** How to run : ***
 1. modify the db.properties file with your own database credentials.
 2. modify the build.properties file with your tomcat installation directory.
 3. modify the log4j.properties file and set "log4j.appender.file.File" attribute to your preferred log file location.
